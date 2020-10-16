@@ -12,8 +12,16 @@
 * Demostrar meus conhecimentos em Laravel e VueJs.
  
 
-### Tecnologias utilizadas no projeto
+### Frameworks e Bibliotecas utilizadas no projeto
 * [Laravel](https://laravel.com/) 
 * [Vue.Js](https://vuejs.org/)
+* [VueRouter.Js](https://router.vuejs.org/)
+* [Composer ](https://getcomposer.org/)
+* [NPM](https://www.npmjs.com/get-npm) 
+* [NodeJs ](https://nodejs.org/en/)
 * [BootStrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [Fontwesome ](https://fontawesome.com/)
+* [JWT ](https://jwt-auth.readthedocs.io/en/develop/)
+* [PostgreSQL ](https://www.postgresql.org/)
+
+
