@@ -7,9 +7,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
 
-        <title>Patricio Alex - Portfólio</title>
-        {{-- <link rel="shortcut icon" href="{{ asset('storage/imagens/PA.png') }}"> --}}
-       
+        <title>FAQ</title>      
         <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
         {{-- <link rel="stylesheet" text="text/css" href="{{ asset('css/estilo.css') }}"> --}}
 
