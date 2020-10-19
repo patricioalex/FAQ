@@ -21,7 +21,6 @@
 * [NodeJs ](https://nodejs.org/en/)
 * [BootStrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [Fontwesome ](https://fontawesome.com/)
-* [JWT ](https://jwt-auth.readthedocs.io/en/develop/)
 * [PostgreSQL ](https://www.postgresql.org/)
 
 
