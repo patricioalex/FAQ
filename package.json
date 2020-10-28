@@ -20,15 +20,8 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.1",
         "bootstrap": "^4.5.3",
-        "child_process": "^1.0.2",
-        "fs": "0.0.1-security",
         "jquery": "^3.5.1",
-        "net": "^1.0.2",
         "popper": "^1.0.1",
-        "popper.js": "^1.16.1",
-        "rijs": "^0.9.1",
-        "rijs.npm": "^2.0.0",
-        "tls": "0.0.1",
         "vue": "^2.6.12",
         "vue-router": "^3.4.6"
     }
