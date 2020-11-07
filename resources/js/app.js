@@ -16,7 +16,7 @@ import router from './router'
  * Componentes globais
  */
 
-Vue.component('pesquisar', require('./components/Home/Pesquisar.vue').default);
+Vue.component('Home', require('./components/Home/Home.vue').default);
 Vue.component('LoadPage', require('./components/load/Loading.vue').default);
 Vue.component('Load', require('./components/load/load.vue').default);
 

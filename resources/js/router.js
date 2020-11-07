@@ -13,14 +13,14 @@
  /**
   * Importando components
   */
-import Home from './components/home.vue'
+// import Home from './components/home.vue'
 
  /**
   * Routes
   */
 
   const routes = [
-      {path: '/', component: Home}
+    //   {path: '/', component: Home}
   ]
 
   const router = new VueRouter({
