@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateFrequenciasTable extends Migration
+class CreateFrequenciaPerguntasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateFrequenciasTable extends Migration
      */
     public function up()
     {
-        Schema::create('frequencias', function (Blueprint $table) {
+        Schema::create('frequencia_perguntas', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('id_pergunta')->unsigned()->nullable();
-            $table->foreign('id_pergunta')->references('id')->on('perguntas')->onDelete('cascade')->onUpdate('cascade');
-            $table->integer('frequencia')->unsigned()->nullable();
+            $table->foreign('id_pergunta')->references('id')->on('perguntas')->onDelete('cascade');
+            $table->integer('frequencia_pergunta')->unsigned()->nullable();
             $table->timestamp('data_exclusao')->nullable();
             $table->timestamps();
         });
@@ -30,6 +30,6 @@ class CreateFrequenciasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('frequencias');
+        Schema::dropIfExists('frequencia_perguntas');
     }
 }
